@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import MovieCard from '../components/MovieCard.svelte';
+
+	export let data;
+	let popularMovies = data.popularMovies;
+	console.log(popularMovies);
+</script>
+
+<MovieCard movie={popularMovies[1]} />
