@@ -34,4 +34,10 @@
 	form {
 		display: flex;
 	}
+
+	@media (max-width: 600px) {
+		input {
+			width: 80%;
+		}
+	}
 </style>

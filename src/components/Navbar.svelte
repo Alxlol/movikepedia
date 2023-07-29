@@ -42,7 +42,7 @@
 		}
 
 		h2 {
-			font-size: 4rem;
+			font-size: 3rem;
 		}
 	}
 </style>

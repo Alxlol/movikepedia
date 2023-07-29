@@ -38,7 +38,11 @@
 
 	@media (max-width: 600px) {
 		:root {
-			--movie-card-width: 300px;
+			--movie-card-width: 275px;
+		}
+
+		.movie-grid {
+			margin: 1rem;
 		}
 	}
 </style>
