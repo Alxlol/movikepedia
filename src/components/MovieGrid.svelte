@@ -27,6 +27,7 @@
 		gap: 2rem;
 		margin: 4rem;
 		align-items: end;
+		justify-items: center;
 	}
 
 	.showcase-container {
@@ -37,7 +38,7 @@
 
 	@media (max-width: 600px) {
 		:root {
-			--movie-card-width: 400px;
+			--movie-card-width: 300px;
 		}
 	}
 </style>

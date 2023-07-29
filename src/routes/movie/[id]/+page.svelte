@@ -38,7 +38,8 @@
 		border-radius: 2rem;
 		display: flex;
 		align-items: center;
-		max-width: 850px;
+		width: 850px;
+		margin: 0 4rem;
 		gap: 2rem;
 		padding: 3rem;
 		background-color: var(--primary-color-l);
@@ -48,6 +49,10 @@
 		overflow: hidden;
 		box-shadow: 0 0 40px black;
 		margin-top: 4rem;
+	}
+
+	.movie-title {
+		font-family: var(--accent-font);
 	}
 
 	.extra-details {
@@ -82,5 +87,12 @@
 
 	li:hover {
 		transform: scale(1.1);
+	}
+
+	@media (max-width: 750px) {
+		.movie-details {
+			flex-direction: column;
+			margin: 2rem 2rem;
+		}
 	}
 </style>

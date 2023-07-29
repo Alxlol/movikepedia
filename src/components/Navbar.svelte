@@ -29,14 +29,20 @@
 		font-size: 3rem;
 	}
 
-	ul {
-		display: flex;
-		gap: 1rem;
-		list-style: none;
-	}
-
 	a {
 		color: var(--white);
 		text-decoration: none;
+	}
+
+	@media (max-width: 760px) {
+		.navbar {
+			flex-direction: column;
+			gap: 0.3rem;
+			margin-bottom: 1rem;
+		}
+
+		h2 {
+			font-size: 4rem;
+		}
 	}
 </style>

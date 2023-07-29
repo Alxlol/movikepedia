@@ -38,4 +38,10 @@
 		font-size: 3rem;
 		font-family: var(--accent-font);
 	}
+
+	@media (max-width: 600px) {
+		h2 {
+			font-size: 2.5rem;
+		}
+	}
 </style>
