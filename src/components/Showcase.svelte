@@ -25,7 +25,8 @@
 		width: 100%;
 		height: 300px;
 		object-fit: cover;
-		filter: blur(0.5rem);
+		border-radius: 2rem;
+		filter: blur(0.25rem);
 	}
 
 	h2 {
@@ -35,5 +36,6 @@
 		transform: translate(-50%, -50%);
 		text-shadow: 0 0 10px black;
 		font-size: 3rem;
+		font-family: var(--accent-font);
 	}
 </style>

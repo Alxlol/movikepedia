@@ -7,17 +7,17 @@
 		<h2>Movikepedia</h2>
 	</a>
 	<SearchBar />
-	<ul>
+	<!-- <ul>
 		<li><a href="">Popular</a></li>
 		<li><a href="">Top Rated</a></li>
 		<li><a href="">Something</a></li>
-	</ul>
+	</ul> -->
 </nav>
 
 <style>
 	.navbar {
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		align-items: center;
 		gap: 6rem;
 
