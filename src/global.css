@@ -3,9 +3,12 @@
 /* Variables */
 :root {
 	--primary-color: #1a2428;
+	--primary-color-l: #2b3c43;
 	--white: #dfdeda;
 	--primary-font: 'Ubuntu', sans-serif;
 	--accent-font: 'Unica One', cursive;
+
+	--movie-card-width: 200px;
 }
 
 /*
@@ -72,4 +75,17 @@ h6 {
 #root,
 #__next {
 	isolation: isolate;
+}
+
+a {
+	text-decoration: none;
+	color: var(--white);
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	padding: 0;
 }

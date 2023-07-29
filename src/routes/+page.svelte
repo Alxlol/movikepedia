@@ -1,9 +1,9 @@
 <script>
-	import MovieCard from '../components/MovieCard.svelte';
+	import MovieGrid from '../components/MovieGrid.svelte';
+	import PopularMovies from '../components/SiteComponents/PopularMovies.svelte';
 
 	export let data;
 	let popularMovies = data.popularMovies;
-	console.log(popularMovies);
 </script>
 
-<MovieCard movie={popularMovies[1]} />
+<PopularMovies {popularMovies} />

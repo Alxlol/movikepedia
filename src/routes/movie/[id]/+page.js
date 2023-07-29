@@ -7,8 +7,8 @@ const options = {
 	}
 };
 
-export async function load({ fetch }) {
-	const response = await fetch('https://api.themoviedb.org/3/movie/popular', options);
+export async function load({ fetch, params }) {
+	const response = await fetch(`https://api.themoviedb.org/3/movie/${params.id}`, options);
 	const data = await response.json();
-	return { popularMovies: data.results };
+	return { movie: data };
 }

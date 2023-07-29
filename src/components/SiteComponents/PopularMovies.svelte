@@ -1,9 +1,6 @@
 <script>
-	import MovieCard from '../MovieCard.svelte';
-
-	export let popularMovies = [];
+	import MovieGrid from '../MovieGrid.svelte';
+	export let popularMovies;
 </script>
 
-{#each popularMovies as movie}
-	<MovieCard {movie} />
-{/each}
+<MovieGrid gridMovies={popularMovies} hasShowcase={true} showcaseTitle="Popular Movies Right Now" />
