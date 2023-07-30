@@ -16,7 +16,6 @@ export async function load({ fetch, params }) {
 	);
 	const data = await response.json();
 
-	console.log(data);
 	if (data.results.length > 0) return { searchResult: data };
 	else throw error(404, 'no searches');
 }
