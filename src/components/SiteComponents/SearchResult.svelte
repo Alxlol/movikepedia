@@ -3,4 +3,4 @@
 	export let searchResult;
 </script>
 
-<MovieGrid gridMovies={searchResult} hasShowcase={true} showcaseTitle="Search Result:" />
+<MovieGrid gridMovies={searchResult} hasShowcase={false} showcaseTitle="Search Results:" />

@@ -23,7 +23,7 @@
 
 	img {
 		width: 100%;
-		height: 300px;
+		height: 200px;
 		object-fit: cover;
 		border-radius: 2rem;
 		filter: blur(0.25rem);
@@ -35,13 +35,24 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		text-shadow: 0 0 10px black;
-		font-size: 3rem;
+		font-size: 2rem;
 		font-family: var(--accent-font);
 	}
 
 	@media (max-width: 600px) {
 		h2 {
-			font-size: 2.5rem;
+			font-size: 2rem;
+			position: static;
+			top: 0;
+			left: 0;
+			transform: translate(0, 0);
+			margin-top: 3rem;
+			margin-bottom: 1rem;
+			text-shadow: none;
+		}
+
+		img {
+			display: none;
 		}
 	}
 </style>

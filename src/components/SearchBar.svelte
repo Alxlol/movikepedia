@@ -26,6 +26,11 @@
 		font-family: var(--accent-font);
 	}
 
+	button:hover {
+		background-color: #4e6e7b;
+		cursor: pointer;
+	}
+
 	input {
 		outline: none;
 		padding: 0.2rem 1rem;

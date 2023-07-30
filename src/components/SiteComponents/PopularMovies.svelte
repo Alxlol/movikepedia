@@ -3,4 +3,4 @@
 	export let popularMovies;
 </script>
 
-<MovieGrid gridMovies={popularMovies} hasShowcase={true} showcaseTitle="Popular Movies Right Now" />
+<MovieGrid gridMovies={popularMovies} hasShowcase={true} showcaseTitle="Popular Movies:" />

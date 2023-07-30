@@ -1,3 +1,5 @@
+import { error } from '@sveltejs/kit';
+
 const options = {
 	method: 'GET',
 	headers: {
@@ -13,5 +15,8 @@ export async function load({ fetch, params }) {
 		options
 	);
 	const data = await response.json();
-	return { searchResult: data };
+
+	console.log(data);
+	if (data.results.length > 0) return { searchResult: data };
+	else throw error(404, 'no searches');
 }
